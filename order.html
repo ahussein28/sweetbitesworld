@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order - Sweet Bites World</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include Lobster font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="https://images.show.pics.io/663060f751def4e935d85786/81552972/logo.png" alt="Sweet Bites World Logo">
+    <h1>Welcome to Sweet Bites World</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order</a></li> <!-- Make Order button clickable -->
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="order">
+    <div class="order-options">
+      <h2>Choose Your Dessert</h2>
+      <label for="desserts">Choose Your Dessert:</label>
+      <select id="desserts">
+        <!-- Include options dynamically from the menu -->
+        <option value="chocolate_cake">Chocolate Cake</option>
+        <option value="cheesecake">Cheesecake</option>
+        <option value="apple_pie">Apple Pie</option>
+        <option value="brownie_sundae">Brownie Sundae</option>
+        <option value="creme_brulee">Crème Brûlée</option>
+        <option value="tiramisu">Tiramisu</option>
+        <option value="fruit_tart">Fruit Tart</option>
+        <option value="panna_cotta">Panna Cotta</option>
+        <option value="lemon_sorbet">Lemon Sorbet</option>
+        <option value="chocolate_mousse">Chocolate Mousse</option>
+      </select>
+      
+      <h2>Quantity</h2>
+      <label for="quantity">Quantity:</label>
+      <select id="quantity">
+        <!-- Include options from 1 to 10 -->
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      <button class="order-button">Order Now</button>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2024 Sweet Bites World. All rights reserved.</p>
+    <p><a href="mailto:info@sweetbitesworld.com" class="email-link">Email</a></p>
+  </footer>
+</body>
+</html>
